@@ -1,4 +1,4 @@
-# Acwing
+# README
 
 ## 第一章：基础算法
 
