@@ -71,7 +71,7 @@ int main()
 
 归并排序的时间复杂度：$O(n\log(n))$
 
-<img src="./assets/o(n).png" style="zoom: 15%;" />
+<img src="../assets/o(n).png" style="zoom: 15%;" />
 
 分析：由于$2^{\log(n)}=n$，即$n$除以$\log(n)$次得到$1$，所以归并排序一共可以划分为$\log(n)$层。每一层的时间复杂度为$O(n)$，例如对第$i$行，其时间复杂度为:
 $$
