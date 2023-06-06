@@ -7,7 +7,7 @@ int q[N];
 
 void quick_sort(int q[], int l, int r){
     if(l >= r) return; //注意是大于等于
-    int x = q[l], i = l - 1, j = r + 1; //1.确定分界点；首先注意中间值取q[l]，递归的时候用j 
+    int x = q[int((l + r))/2], i = l - 1, j = r + 1; //1.确定分界点；首先注意中间值取q[int((l + r)/2]，递归的时候用j 
     while(i < j){ //2.调整区间
         do i++; while(q[i] < x);
         do j--; while(q[j] > x);
